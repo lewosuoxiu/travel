@@ -1,17 +1,17 @@
-import Vue from 'vue'
-import App from './App'
-import router from './router'
-import './assets/styles/reset.css'
-import './assets/styles/border.css'
-import FastClick from 'fastclick'
+import Vue from "vue";
+import App from "./App";
+import router from "./router";
+import "styles/reset.css";
+import "styles/border.css";
+import FastClick from "fastclick";
+import "styles/iconfont.css";
 
-Vue.config.productionTip = false
-FastClick.attach(document.body)
-
+Vue.config.productionTip = false;
+FastClick.attach(document.body);
 
 new Vue({
-  el: '#app',
+  el: "#app",
   router,
   components: { App },
-  template: '<App/>'
-})
+  template: "<App/>"
+});
