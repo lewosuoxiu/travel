@@ -1,17 +1,22 @@
-import Vue from 'vue'
-import Router from 'vue-router'
+import Vue from "vue";
+import Router from "vue-router";
 // import HelloWorld from '@/components/HelloWorld'
-import Home from '@/pages/home/Home.vue'
+import Home from "@/pages/home/Home.vue";
+import City from "@/pages/city/City";
 
-
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   routes: [
     {
-      path: '/',
-      name: 'Home',
+      path: "/",
+      name: "Home",
       component: Home
-    } 
+    },
+    {
+      path: "/City",
+      name: "City",
+      component: City
+    }
   ]
-})
+});
