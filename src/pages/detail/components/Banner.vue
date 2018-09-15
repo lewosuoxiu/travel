@@ -7,7 +7,8 @@
                 <div class="banner-number"><span class="iconfont banner-icon">&#xe692;</span>39</div>
             </div>
         </div>
-        <common-gallary :imgs="imgs" v-show="showGallary" @close="handleGallaryClose"></common-gallary>
+        <common-gallary :imgs="imgs" v-show="showGallary"
+        @close="handleGallaryClose"></common-gallary>
     </div>
 </template>
 
