@@ -1,20 +1,20 @@
 <template>
     <div class="header">
-          城市选择
+        城市选择
         <router-link to="/">
-            <div class="iconfont header-icon header-back">&#xe624;</div>
+             <div class="iconfont header-back">&#xe624;</div>
         </router-link>
     </div>
-
+    
 </template>
-
+   
 <script>
 export default {
   name: "City"
 };
 </script>
 
-<style lang="stylus" scoped>
+<style lang="stylus" scoped >
 @import '~styles/varibles.styl';
 
 .header {
@@ -38,4 +38,3 @@ export default {
     }
 }
 </style>
-

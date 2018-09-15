@@ -1,16 +1,17 @@
 <template>
-   <div class="search">
-       <input class="search-input" type="text" placeholder="输入城市名或拼音">
-   </div>
+<div class="search">
+    <input class="search-input" type="text" placeholder="输入城市名或拼音">
+</div>
+    
 </template>
-
+   
 <script>
 export default {
   name: "CitySearch"
 };
 </script>
 
-<style lang="stylus" scoped>
+<style lang="stylus" scoped >
 @import '~styles/varibles.styl';
 
 .search {
@@ -30,4 +31,3 @@ export default {
     }
 }
 </style>
-

@@ -5,16 +5,14 @@
         </div>
         <div class="header-input">
             <span class="iconfont">&#xe632;</span>
-            输入城市景点、游玩主题
+            输入城市/景点、游玩主题
         </div>
-
         <router-link to="/city">
             <div class="header-right">
-                 {{ this.city }}
-                 <span class="iconfont arrow-icon">&#xe64a;</span>
+                {{ this.city }}
+                <span class="iconfont arrow-icon">&#xe64a;</span>
             </div>
         </router-link>
-       
     </div>
 </template>
 
@@ -25,16 +23,16 @@ export default {
     city: String
   }
 };
-</script>
+</script >
+   
 
 <style lang="stylus" scoped>
 @import '~styles/varibles.styl';
 
 .header {
     display: flex;
-    height: $headerHeight;
     line-height: $headerHeight;
-    background-color: $bgColor;
+    background: $bgColor;
     color: #fff;
 
     .header-left {
@@ -72,4 +70,3 @@ export default {
     }
 }
 </style>
-
